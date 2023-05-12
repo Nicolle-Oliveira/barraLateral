@@ -33,6 +33,10 @@ body{
     color: whitesmoke;
 }
 
+.dark-mode .main #pendentesBotao{
+    background-color: whitesmoke;
+}
+
 .border{
     border: 1px solid red;
 }
@@ -153,11 +157,23 @@ h3 { font-size: 15px;
     text-decoration: none;
     color: #161D30;
 }
+
+.dark-mode #pendentesIcon {
+    color: #161D30;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
 #pendentesBotao {
     width: 150px;
     height: 30px;
     background:transparent;
 }
+
+.dark-mode #pendentesBotao {
+    background-color: #ffffff;
+}
+
 .dark-mode h1 {
     color: whitesmoke;
 }
